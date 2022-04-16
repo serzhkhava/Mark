@@ -1,0 +1,237 @@
+body{
+    margin: 0px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#menu{
+    display: flex;
+    justify-content: space-around;
+    margin: 0px;
+    padding: 0px;
+    margin-top: 50px;
+    margin-left: 1000px;
+    list-style: none;
+    margin: 0;    
+    padding-top: 10px;
+    font-weight: lighter;
+    
+}
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    transition: 2s;
+}
+a:hover{
+    font-weight: 700;
+}
+header{
+    height: 900px;
+    background-image: url(../images/0oq2nxuj430468.jpg);
+    background-size: 100%;
+}
+.about{
+    width: 500px;
+    margin-left: 165px;
+    margin-top: 200px;
+}
+#slogan{
+    font-size: 50px;
+    color: white;
+}
+#subSlogan{
+    font-size: 20px;
+    line-height: 2;
+    color: white;
+}
+button {
+    --green: #1BFD9C;
+    font-size: 15px;
+    padding: 0.7em 2.7em;
+    letter-spacing: 0.06em;
+    position: relative;
+    font-family: inherit;
+    border-radius: 0.6em;
+    overflow: hidden;
+    transition: all 0.3s;
+    line-height: 1.4em;
+    border: 2px solid var(--green);
+    background: linear-gradient(to right, rgba(27, 253, 156, 0.1) 1%, transparent 40%,transparent 60% , rgba(27, 253, 156, 0.1) 100%);
+    color: var(--green);
+    box-shadow: inset 0 0 10px rgba(27, 253, 156, 0.4), 0 0 9px 3px rgba(27, 253, 156, 0.1);
+}
+   
+button:hover {
+    color: #82ffc9;
+    box-shadow: inset 0 0 10px rgba(27, 253, 156, 0.6), 0 0 9px 3px rgba(27, 253, 156, 0.2);
+}   
+button:before {
+    content: "";
+    position: absolute;
+    left: -4em;
+    width: 4em;
+    height: 100%;
+    top: 0;
+    transition: transform .4s ease-in-out;
+    background: linear-gradient(to right, transparent 1%, rgba(27, 253, 156, 0.1) 40%,rgba(27, 253, 156, 0.1) 60% , transparent 100%);
+}
+   
+button:hover:before {
+    transform: translateX(15em);
+}
+.info{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+#about,#about2{
+    text-align: center;
+    font-weight: lighter;
+}
+#hr{
+    margin-inline: 800px;
+}
+#sponsorPhoto{
+    border-radius: 0.6em
+}
+.sponsorImg,.sponserText{
+    text-align: center;
+}
+.sponsops{
+    display: flex;
+    justify-content: space-around;
+}
+.aboutInfo{
+    display: flex;
+    justify-content: space-around;
+    margin-inline: 51px;
+}
+.aboutInfoText{
+    width: 800px;
+}
+#block{
+    border-radius: 15px;
+}
+.aboutInfo{
+    display: flex;
+    justify-content: space-around;
+    margin-inline: 51px;
+}
+.aboutInfoText{
+    width: 800px;
+}
+.allInfo{
+    background-color: #81d6b1;
+    padding-bottom: 80px;
+
+}
+#but{
+
+    color: #090909;
+    padding: 0.7em 1.7em;
+    font-size: 18px;
+    border-radius: 0.5em;
+    background: #e8e8e8;
+    border: 1px solid #e8e8e8;
+    transition: all .3s;
+    box-shadow: 6px 6px 12px #c5c5c5,
+                -6px -6px 12px #ffffff;
+   }
+   
+   #but:hover {
+    border: 1px solid white;
+   }
+   
+   #but:active {
+    box-shadow: 4px 4px 12px #c5c5c5,
+                -4px -4px 12px #ffffff;
+   }
+#about2,#aboutInfoSlogan,#aboutInfoSubSlogan{
+    color:white;
+}
+#aboutInfoSubSlogan{
+    margin-bottom: 60px;
+}
+#video{
+    border-radius:0.6em;
+ 
+}
+#about2{
+    padding-top: 60px;
+}
+
+.firstBlock{
+    text-align: center;
+}
+.card{
+    width: 300px;
+    border-radius: 0.6em;
+    box-shadow: 0 0 10px rgba(22, 22, 22, 0.284);
+    margin-top: 50px;
+    background-color:#ffffff;
+
+    }
+#cardTitle,#cardP{
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+}
+#lary{
+    border-radius: 0.6em 0.6em 0 0;
+}
+.gallery{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-inline: 175px;
+}
+.footerStart{
+    padding: 25px 274px 25px 288px;
+    background-color: rgb(204, 204, 204);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#email{
+    font-weight: lighter;
+    margin: 0;
+}
+#input{
+    border: none;
+    padding: 15px 200px 15px 200px;
+    border-radius: 25px;
+    position: relative;
+    left: 68px;
+}
+#but2{
+    border: none;
+    padding: 10px 15px 10px 15px;
+    border-radius: 25px;
+    background: linear-gradient(rgb(0, 255, 106),rgb(0, 255, 157));
+    color: white;
+    position: relative;
+}
+#ulf{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+}
+#li{
+    margin-right: 15px;
+}
+.footerMain{
+    padding-inline: 190px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: rgb(252, 252, 252);
+    display: flex;
+    justify-content: space-around;
+}
+h1{
+    margin: 0;
+}
+#ulfi{
+    margin: 0;padding: 0;list-style: none;
+}
+.footerInfo{
+    width: 500px;
+}
